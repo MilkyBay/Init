@@ -1,0 +1,2 @@
+#!/bin/bash
+pgrep ssh | while read PID; do sudo kill $PID; done

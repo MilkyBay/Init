@@ -1,0 +1,5 @@
+Используйте whois для получения подробной информации о домене.
+
+whois slash16.org | grep 'Name Server' | awk '{print $3}'
+
+Если кратко и погуглить, то Amazon.
